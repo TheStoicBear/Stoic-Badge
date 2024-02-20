@@ -27,7 +27,7 @@ exports('countyBadge', function()
 end)
 
 
-exports('stateBagde', function()
+exports('stateBadge', function()
     -- Trigger the server event 'showPlayerInfo' without passing any parameters
     TriggerServerEvent('showPlayerInfo')
 
