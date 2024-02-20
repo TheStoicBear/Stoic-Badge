@@ -5,7 +5,10 @@ author 'TheStoicBear | MI_Agimir'
 description 'A Simple Badge System.'
 version '1.0.0'
 description 'streeeeeeeeaaaaaaaaaaam'
-ui_page 'index.html'
+
+
+client_script 'source/c_badge.lua' 
+server_script 'source/s_badge.lua'
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -13,14 +16,9 @@ shared_scripts {
     'Config.lua'
 }
 
-client_scripts {
-    'source/client.lua',
-    'source/c_badge.lua',
-
-} 
-
-server_scripts {
-    'source/s_badge.lua'
+dependencies {
+    "ND_Core",
+    "ox_lib"
 }
 
 files {
