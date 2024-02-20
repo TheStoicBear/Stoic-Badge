@@ -1,5 +1,5 @@
+![STOIC](https://github.com/TheStoicBear/Stoic-Badge/assets/112611821/5be9fc86-f74f-418d-bd12-19ca3e08883e)
 # Stoic-Badge
-
 Stoic-Badge is a resource designed to manage badge numbers for players and display relevant player information.
 
 ------------------------------------
